@@ -17,7 +17,7 @@ int main()
         n = n / 10;
     }
 
-    cout << sumOfDigits;
+    cout << "Sum of Digits: "<< sumOfDigits;
 
     return 0;
 }
