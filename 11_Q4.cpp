@@ -56,3 +56,39 @@ int main()
 
     return 0;
 }
+
+// Alternately, you can modify the program to print a solid square pattern as shown below:
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int rows;
+
+//     // Prompt the user to enter the number of rows
+//     cout << "Enter number of Rows: ";
+//     cin >> rows;
+
+//     // Loop to iterate through each row
+//     for (int i = 0; i < rows; i++)
+//     {
+//         cout << "*" << " ";
+
+//         for (int j = 0; j < rows - 2; j++)
+//         {
+//             if (i == 0 || i == rows - 1)
+//             {
+//                 cout << "*" << " ";
+//             }
+//             else
+//             {
+//                 cout << " " << " ";
+//             }
+//         }
+
+//         cout << "*" << endl;
+//     }
+
+//     return 0;
+// }
